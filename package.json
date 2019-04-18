@@ -2,7 +2,7 @@
   "name": "fjcanvas",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "make demo"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fangjunqiang0/FJCanvas/issues"
   },
-  "homepage": "https://github.com/fangjunqiang0/FJCanvas#readme"
+  "homepage": "https://github.com/fangjunqiang0/FJCanvas#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0"
+  }
 }
