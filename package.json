@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "make demo"
+    "dev": "webpack --config webpack.config.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/fangjunqiang0/FJCanvas#readme",
   "devDependencies": {
-    "webpack": "^4.30.0"
-  }
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {}
 }
