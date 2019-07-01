@@ -13,9 +13,9 @@ window.onload = function () {
     canvas.setAttribute('width', ScreenW * 2);
     ctx = canvas.getContext("2d");
 
-    acircles(200);
+    acircles(200);  // 创建圆点对象
 
-    requestAnimationFrame(updateCircles);
+    requestAnimationFrame(updateCircles); // 执行动画
 
 
 };
